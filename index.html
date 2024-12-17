@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="./index.css">
+  <title>Frontend Mentor | Newsletter sign-up form with success message</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+<div class="container">
+  <div class="succed" id="success">
+    <img src="./assets/images/icon-success.svg" alt="">
+    <h1>Thanks you for subscribe!</h1>
+    <p>A confomation Email has been set to example@gmail.com thank you for subscribing please open it and clik tha buttom </p>
+    <button class="btn-s" id="btnins">Dissmiss Message</button> 
+  </div>
+  <div class="shap" id="form">
+    <div class="photo">
+      <img src="./assets/images/illustration-sign-up-desktop.svg" alt="" id="ph">
+    </div>
+    <div class="text">
+      <h1>Stay Update !</h1>
+      <p>Join 60,000+ product managers receiving monthly update on :</p>
+      <div class="lists">
+        <div class="list">
+          <img src="./assets/images/icon-list.svg" alt="">
+          <p>Product discovery and build what matter</p>
+        </div>
+        <div class="list">
+          <img src="./assets/images/icon-list.svg" alt="">
+          <p>Masuring to ensure Update are success</p>
+        </div>
+        <div class="list">
+          <img src="./assets/images/icon-list.svg" alt="">
+          <p>And much more</p>
+        </div>
+      </div>
+      <form action="">
+        <label for="email">Email Address</label>
+        <input type="email" name="" id="email" required>
+        <p id="msg" style="color:  #FE5772;display:none;">Please Inter valid Email</p>
+        <button id="btn">Subscribe for monthly newsletter</button>
+      </form>
+
+
+    </div>
+  </div>
+
+</div>
+<script src="/index.js"></script>
+</body>
+</html>
+
+
